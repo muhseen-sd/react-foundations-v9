@@ -26,7 +26,8 @@ export default [
       },
     },
     rules: {
-      
+      "react/no-unescapped-entities": "off",
+      "react/prop-types": "off"
     }
   },
   prettier,
