@@ -1,26 +1,10 @@
 import { createRoot } from "react-dom/client";
-import Pizza from "./Pizza";
+// import Pizza from "./Pizza";
+import Order from "./Order";
 
 const App = () => {
   return (
-    <div>
-      <h1>Pedre Gino's - Order now</h1>
-      <Pizza 
-        name="Pepperoni" 
-        description="pep, cheese, n stuff" 
-        image={"/public/pizzas/pepperoni.webp"}
-      />
-      <Pizza 
-      name="Hawaiian" 
-      description="ham, pineapple, n stiff" 
-      image={"/public/pizzas/hawaiian.webp"}
-      />
-      <Pizza 
-      name="Americano" 
-      description="french fries, hot dogs, n stuff" 
-      image={"/public/pizzas/big_meat.webp"}
-      />
-    </div>
+    <Order />
   )
 };
 
