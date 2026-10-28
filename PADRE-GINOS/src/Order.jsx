@@ -1,8 +1,12 @@
+import { useState } from "react";
 import Pizza from "./Pizza" ;
 
 export default function Order() {
-    const pizzaType = "Pepperoni";
-    const pizzaSize = "M";
+    // const pizzaType = "Pepperoni";
+    // const pizzaSize = "M";
+
+    const [pizzaType, setPizzaType] = useState("pepperoni")
+    const [pizzaSize, setPizzaSize] = useState("M")
 
     return(
         <div className="order">
